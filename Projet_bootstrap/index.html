@@ -12,86 +12,279 @@
 </head>
 
 <body>
-    <div class="header container shadow-perso bg-white py-5 mt-3">
-        <div class="row d-flex align-items-center flex-column">
-            <h1 class="text-warning">Star Trek</h1>
-            <h2 class="text-dark mb-md-5">La vision, le message, et les clés d'une série-culte</h2>
-        </div>
-        <div class="row d-flex col-md">
-            <p class="text-dark w-50 align-self-center">"Espace, frontière de l'infini
-                vers lequel voyage notre vaisseau spatial.
-                Sa mission: Explorer de nouveaux mondes étranges,
-                découvrir de nouvelles vies, d'autres civilisations,
-                et au mépris du danger, reculer l'impossible"</p>
-            <div class="enterprise d-flex justify-content-center w-50">
-                <img class="w-100 d-block" src="asset/img/enterprise2k.jpg" alt="">
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
+            <div class="navbar-nav w-100 d-flex justify-content-center">
+                <ul class="navbar-nav w-100 d-flex justify-content-around">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#histoire">Histoire</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#personnage">Personnage </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dvd">Dvd</a>
+                    </li>
+                </ul>
             </div>
+            <form class="d-flex my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <img class="w-100 hv-100 img-fluid p-relative" src="asset/img/enterprise2k.jpg" alt="enterprise">
+            <h1 class="font-italic opacity-8 font-s-4 text-uppercase text-warning p-absolute">Star Trek</h1>
         </div>
     </div>
 
-
-
-    <div class="container shadow-perso bg-dark mb-md-5 mt-md-5 text-white">
+    <div class="container mt-md-5">
+        <div class="row">
+            <div class="col-md-6 elt-img">
+                <img class="w-100 shadow-perso" src="asset/img/Logo.webp" alt="logo Star Trek">
+            </div>
+            <div class="col-md-6 bg-whiteSmoke shadow-perso">
+                <h5 class="mt-md-2 font-weight-bold text-danger elt-title text-center text-uppercase">A propos de Star
+                    Trek</h5>
+                <p>La vision, le message et les clés d'une série-culte
+                    "Espace, frontière de l'infini lequel voyage notre vaisseau spatial.</p>
+                <p> Mission: Explorer de nouveaux mondes étranges,
+                    découvrir de nouvelles vies, d'autres civilisations,
+                    et au mépris du danger, reculer l'impossible"</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
         <div class="row justify-content-center">
-            <div id="carouselExampleIndicators" class="carousel slide w-100" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner col-md offset-6">
-                    <div class="carousel-item active">
-                        <img src="asset/img/capitaineKirk.jpg" class="d-block w-50" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="asset/img/Spock.jpg" class="d-block w-50" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="asset/img/dr_leonard.jpg" class="d-block w-50" alt="...">
+            <div class="col-md">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="asset/img/capitaineKirk.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <p>William Shatner</p>
+                        <blockquote class="blockquote-footer">le Capitaine Kirk</blockquote>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+            </div>
+            <div class="col-md">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="asset/img/Spock.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <p>Léonard Nimoy </p>
+                        <blockquote class="blockquote-footer">Mr Spock</blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="asset/img/dr_leonard.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                        <p>Forrest Kelley</p>
+                        <blockquote class="blockquote-footer">Dr Leonard Mac Coy </blockquote>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+
+    <div class="container mt-5" id="histoire">
         <div class="row">
-            <p class="p-md-2">Incarnée à l'écran par William Shatner (le Capitaine Kirk), Léonard Nimoy (Mr Spock), et
-                De Forrest
-                Kelley (Dr Leonard Mac Coy), Star Trek est née dans le cerveau d'un scénariste américain, Gene
-                Rodenberry. C'est à lui que reviennent la conception et la philosophie de la série.
+            <div class="col-md-8 bg-whiteSmoke d-flex flex-column justify-content-center elt-img">
+                <p>Produite au départ par MGM, puis par Paramount, diffusée sur la chaine NBC,
+                    la série compte 79
+                    épisodes, réalisés en l'espace de trois ans, de 1964 à 1966.</p>
+                <p>Résumons la situation. Nous sommes au début du 23è siècle. La Terre, après
+                    avoir réchappé à quelques
+                    accidents de l'Ere Nucléaire, est unifiée en une "Fédération des Planètes-Unies", où règne paix et
+                    démocratie.</p>
+            </div>
+            <div class="col-md-4 ">
+                <img class="shadow-perso w-100" width="319" height="200" src="asset/img/Bataille1200p.jpg"
+                    alt="bataille img">
+            </div>
+        </div>
 
-                Produite au départ par MGM, puis par Paramount, diffusée sur la chaine NBC, la série compte 79 épisodes,
-                réalisés en l'espace de trois ans, de 1964 à 1966.</p>
-            <p class="p-md-2">
-                Résumons la situation. Nous sommes au début du 23è siècle. La Terre, après avoir réchappé à quelques
-                accidents de l'Ere Nucléaire, est unifiée en une "Fédération des Planètes-Unies", où règne paix et
-                démocratie. Le fleuron de sa flotte spatiale est l'Entreprise, un vaisseau-pilote chargé d'une mission
-                d'exploration de 5 ans. Elle est commandée par le Capitaine James T. Kirk, secondé par son premier
-                officier, un Vulcain nommé Spock. Enfin l'officier-médecin est le Docteur Mac Coy. Voila notre trio
-                constitué, le quatrième personnage étant l'Entreprise elle-même.</p>
-            <p class="p-md-2">
-                La teneur de leur mission nous est rappelée à chaque épisode par le générique: "Espace, frontières de
-                l'infini où voyage notre vaisseau spatial...sa mission de 5 ans: explorer de nouveaux Mondes étranges,
-                découvrir de nouvelles vies, d'autres civilisations, et au mépris du danger, reculer l'impossible"...
-                Suffisamment vaste pour aborder la plupart des grands thèmes métaphysiques: relativité du temps,
-                rapports pensée-matière, dimensions parallèles, variété des hypothèses biologiques pouvant conduire à la
-                vie. L'Entreprise va ainsi explorer une multitude de planètes fictives, observer différents fondements
-                de civilisation possibles, et tenter de cerner ce qui fonde notre unicité dans l'univers.</p>
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <img class="shadow-perso-reverse w-100" width="319" height="200" src="asset/img/galaxyIMG.jpg"
+                    alt="galaxyIMG img">
+            </div>
+            <div class="col-md-8 bg-whiteSmoke d-flex flex-column justify-content-center elt-img-reverse">
+                <p>Le fleuron de sa flotte spatiale est l'Entreprise, un vaisseau-pilote chargé d'une mission
+                    d'exploration de 5 ans. Elle est commandée par le Capitaine James T. Kirk, secondé par son premier
+                    officier, un Vulcain nommé Spock. </p>
+                <p>Enfin l'officier-médecin est le Docteur Mac Coy. Voila notre trio
+                    constitué, le quatrième personnage étant l'Entreprise elle-même.
+                    La teneur de leur mission nous est rappelée à chaque épisode par le générique: "Espace, frontières
+                    de l'infini où voyage notre vaisseau spatial...</p>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-8 bg-whiteSmoke d-flex flex-column justify-content-center elt-img">
+                <p>Sa mission de 5 ans: explorer de nouveaux Mondes étranges, découvrir de nouvelles vies, d'autres
+                    civilisations, et au mépris du danger, reculer l'impossible"...</p>
+                <p>Suffisamment vaste pour aborder la plupart des grands thèmes métaphysiques: relativité du temps,
+                    rapports pensée-matière, dimensions parallèles, variété des hypothèses biologiques pouvant conduire
+                    à la vie. L'Entreprise va ainsi explorer une multitude de planètes fictives, observer différents
+                    fondements de civilisation possibles, et tenter de cerner ce qui fonde notre unicité dans l'univers.
+                </p>
+            </div>
+            <div class="col-md-4 ">
+                <img class="shadow-perso w-100" width="319" height="200" src="asset/img/vaisseau720p.jpg"
+                    alt="bataille img">
+            </div>
+        </div>
+
+    </div>
+    <div class="container mt-5" id="personnage">
+        <div class="row">
+            <div class="col">
+                <div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active d-flex align-items-center bg-dark text-white">
+                            <img class="d-block w-100" height="232" src="asset/img/Capitaine Kirk-carousel.jpg"
+                                data-src="holder.js/900x400?theme=social" alt="First slide">
+                            <div class="px-5">
+                                <h4>Le Capitaine Kirk - L'AME</h4>
+                                <p>Héros positif par excellence, il incarne toutes les qualités de la
+                                    grandeur
+                                    d'âme humaine. Volontaire, imaginatif, intuitif voire même "inspiré", son
+                                    attachement à
+                                    l'Entreprise est quasiment charnel. L'âme, c'est le Capitaine Kirk.</p>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item d-flex align-items-center bg-dark text-white">
+                            <div class="px-5">
+                                <h4>Mr Spock - L'ESPRIT</h4>
+                                <p>Oreilles pointues, visage glabre et allongé, sourcils relevés, expression
+                                    impénétrable, bien qu'à demi-humain, son apparence physique est celle des Vulcains,
+                                    dont
+                                    il a hérité un sens aigu de la logique, ainsi que des facultés avancées de
+                                    télépathie.
+                                    Sur l'Entreprise, il est posté au "scruteur", une sorte de super scanner. Car la
+                                    fonction première de l'esprit est de "voir".</p>
+                            </div>
+                            <img class="d-block w-100" height="232" src="asset/img/Spock-carousel.jpg"
+                                data-src="holder.js/900x400?theme=industrial" alt="Second slide">
+                        </div>
+                        <div class="carousel-item d-flex align-items-center bg-dark text-white">
+                            <img class="d-block w-100" height="232" src="asset/img/Dr MacCoy-carousel.jpg"
+                                data-src="holder.js/900x400?theme=industrial" alt="Second slide">
+                            <div class="px-5">
+                                <h4>Dr Mac Coy - LE CORPS</h4>
+                                <p>Le corps, dans Star Trek, c'est Mac Coy, l'Officier médecin de l'Entreprise.
+                                    Il dispose à ce titre d'un droit de veto sur les décisions du Capitaine si il estime
+                                    sa
+                                    santé mentale atteinte. Exactement à l'image du corps qui exprime son "veto" par la
+                                    maladie psycho-sommatique.
+                                    Raleur et chaleureux, toujours entier dans son attitude, il est le gardien
+                                    intransigeant
+                                    des grandes valeurs humaines. Sa voix est celle du bon-sens.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselFadeExampleIndicators" role="button"
+                        data-slide="prev">
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselFadeExampleIndicators" role="button"
+                        data-slide="next">
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
         </div>
     </div>
 
-    <div class="container shadow-perso">
-        <div class="row col-md encadrement">
+    <div class="container mt-5" id="dvd">
+        <div class="row">
+            <div class="col d-flex justify-content-center mb-3">
+                <h2>DVD</h2>
+            </div>
 
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" width="300" height="300" src="asset/img/dvd_original.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Star Trek, La Série Originale-L'intégrale</h4>
+                        <h5 class="card-title">Avis :</h5>
+                        <blockquote class="blockquote-footer">J'ai acheté ce coffret au début du mois d'octobre, séduit
+                            par son prix abordable, mais aussi par l'idée de posséder en blu-ray l'intégralité des trois
+                            saisons de cette série mythique de la SF télévisée, qui m' a tant émerveillé lorsque j'ai
+                            découvert les premiers épisodes au début des années 80 avec mes yeux d'enfant de 10 ans.
+                        </blockquote>
+                        <a href="https://www.amazon.fr/Star-Trek-s%C3%A9rie-originale-remasteris%C3%A9e/dp/B01GOXFLAK/ref=sr_1_18?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=star+Trek&qid=1574617005&s=dvd&sr=1-18"
+                            class="btn btn-primary">Amazon</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" width="300" height="300" src="asset/img/dvd_enterprise.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Star Trek - Enterprise - L'intégrale de la série</h4>
+                        <h5 class="card-title">Avis :</h5>
+                        <blockquote class="blockquote-footer">La série commence 90 ans après la découverte de Zefram
+                            Cochrane. Zefram Cochrane est un scientifique terrien, né en 2032 aux Etats-Unis. Il est à
+                            l'origine du premier moteur à distorsion, qui permet à un vaisseau de dépasser la vitesse de
+                            la lumière:
+                            Voilà pour le début de l'histoire ensuite à vous de découvrir.
+                        </blockquote>
+                        <a href="https://www.amazon.fr/Star-Trek-Enterprise-Lint%C3%A9grale-s%C3%A9rie/dp/B071J936K4/ref=sr_1_20?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=star+Trek&qid=1574617005&s=dvd&sr=1-20"
+                            class="btn btn-primary">Amazon</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" width="300" height="300" src="asset/img/dvd_nextgeneration.png"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Star Trek-La Nouvelle génération-L'intégrale</h4>
+                        <h5 class="card-title">Avis :</h5>
+                        <blockquote class="blockquote-footer">Trekkiste depuis le début, je ne me lasse pas de visionner
+                            toutes les séries de Star Trek. J'ai possédé les VHS, ensuite les DVD et pour finir les
+                            version en Blu-ray. Je regrette que les séries "DEEP SPACE NINE et VOYAGER" ne soient pas
+                            éditées en Blu-ray, soit-disant pour des questions financières. Je considère cette "excuse"
+                            un peu bizarre, vu ce que les éditeurs et consort ont déjà encaissé jusqu'à présent?
+                        </blockquote>
+                        <a href="https://www.amazon.fr/Star-Trek-Nouvelle-g%C3%A9n%C3%A9ration-Lint%C3%A9grale-Blu-Ray/dp/B07T4RHFSR/ref=sr_1_13?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=star+Trek&qid=1574617005&s=dvd&sr=1-13"
+                            class="btn btn-primary">Amazon</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <footer class="col-md bg-dark py-5 text-white d-flex flex-column align-items-center">
+                <div>&copy;<span>All Rights Reserved to the original Sites : <a class="text-warning"
+                            href="https://www.syti.net/StarTrek.html">syti.net/StarTrek</a> only made for purpose of
+                        studying Bootstrap 4</span></div>
+                <div><a style="color:rebeccapurple;" href="https://github.com/Romainjava/Projet_bootstrap">Romain
+                        Van-Damme</a></div>
+            </footer>
+        </div>
+    </div>
 
 
 
