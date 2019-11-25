@@ -81,3 +81,11 @@
     transition: .5s;
     transform: translateY(-10px)
 }
+
+.p-abso {
+    position: absolute;
+}
+
+.p-absotop-43 {
+    top: 43%;
+}
